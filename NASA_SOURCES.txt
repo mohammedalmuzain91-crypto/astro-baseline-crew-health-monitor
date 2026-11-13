@@ -1,0 +1,9 @@
+NASA OSDR source files
+
+OSD-569: LSDS-7_Complete_Blood_Count_CBC_TRANSFORMED.csv and OSD-569_metadata_OSD-569-ISA.zip
+Study: https://osdr.nasa.gov/bio/repo/data/studies/OSD-569
+
+OSD-575: LSDS-8_Comprehensive_Metabolic_Panel_CMP_TRANSFORMED.csv and OSD-575_metadata_OSD-575-ISA.zip
+Study: https://osdr.nasa.gov/bio/repo/data/studies/OSD-575
+
+NASA OSDR public AWS guide: https://github.com/nasa/OSDR_Tutorials/blob/main/source/pages/guides/use_the_osdr_public_aws_s3_bucket.md

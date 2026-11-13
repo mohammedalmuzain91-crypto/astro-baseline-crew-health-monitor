@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Astro·Baseline · Crew Health Monitor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="bg" aria-hidden="true"><video id="bgv" autoplay muted loop playsinline preload="metadata"
+            poster="assets/poster.jpg">
+            <source src="assets/bg-small.mp4" type="video/mp4" media="(max-width:800px)">
+            <source src="assets/bg.mp4" type="video/mp4">
+        </video></div>
+    <header class="top"><a class="brand" href="#top">ASTRO<i></i>BASELINE</a>
+        <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav id="nav" aria-label="Main"><a data-v="overview" href="#overview">Overview</a><a data-v="live"
+                href="#live">Live monitor</a><a data-v="firstaid" href="#firstaid">First-aid</a><a data-v="about"
+                href="#about">About</a></nav>
+    </header>
+    <div class="demo-bar">Prototype · Live readings are simulated · Not a diagnostic tool</div>
+    <section id="hero" aria-label="Introduction">
+        <h1>ASTRO<i></i>BASELINE</h1>
+        <p class="lead">Every astronaut compared with their own normal.</p>
+        <p class="sub">On long missions, Earth can be up to 45 minutes away. Our app tells the crew medical officer who
+            to check first.</p>
+        <button class="btn" id="enter">Open the dashboard</button>
+        <p class="mut" style="margin:0">Prototype · Simulated demo data · Not a diagnostic tool</p>
+    </section>
+    <main id="main">
+        <div id="banner"></div>
+        <div id="view" aria-live="polite"></div>
+    </main>
+    <footer>Astro·Baseline · NASA Space Apps Challenge 2026 · Simulated demo data. We help the crew medical officer
+        notice change. We do not diagnose or recommend treatment.<br><span id="ver">Build v3 · 12 Nov · automatic voice, Acknowledge, escalation, scenario selector on every screen</span></footer>
+    <script src="js/data.js"></script>
+    <script src="js/osdr.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/voice.js"></script>
+</body>
+
+</html>
